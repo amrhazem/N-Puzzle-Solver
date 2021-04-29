@@ -4,7 +4,7 @@ The N-Puzzle is known in finite versions such as the 8-puzzle (a 3x3 board) and 
 
 The objective of the puzzle is to rearrange the tiles in order by making sliding moves that use the empty space, using the fewest moves. Moves of the puzzle are made by sliding an adjacent tile into the empty space. Only tiles that are horizontally or vertically adjacent to the blank space (not diagonally adjacent) may be moved.
 
-![Image of 3x3Board](https://github.com/amrhazem/N-Puzzle-Solver/blob/main/3x3%20Board%20Example.png)
+![Image of 3x3Board](https://github.com/amrhazem/N-Puzzle-Solver/blob/main/Images/3x3%20Board%20Example.png)
 
 ## Applying A* Search Algorithm
 The N-puzzle (N = 8, 15...) is a classical problem for modelling algorithms involving heuristics. Commonly used heuristics for this problem include counting the number of misplaced tiles (Hamming Distance) OR finding the sum of the Manhattan distances between each block and its position in the goal configuration. Note that both are admissible, i.e. they never overestimate the number of moves left, which ensures optimality for certain search algorithms such as A*. A* is one of the informed search algorithms that can be used in such problems to get the optimal solution.
