@@ -19,6 +19,8 @@ The N-puzzle (N = 8, 15...) is a classical problem for modelling algorithms invo
 
 ## Bonus
 1. Simulating user friendly GUI which allows you to rewind the search one step (movement) at a time over a 3x3 Puzzles only.
+
 ![Image of GUI](https://github.com/amrhazem/N-Puzzle-Solver/blob/main/Images/GUI%201.PNG)
 ![Image of GUI](https://github.com/amrhazem/N-Puzzle-Solver/blob/main/Images/GUI%202.PNG)
+
 2. Applying BFS algorithm in order to show the difference between it and A* to solve the unordered board in terms of the number of movements done by each and time.
