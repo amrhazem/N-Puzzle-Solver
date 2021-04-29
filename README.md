@@ -14,6 +14,9 @@ The N-puzzle (N = 8, 15...) is a classical problem for modelling algorithms invo
 2. The program will detect whether the board is solvable or not at first.
 3. If solvable: Step-by-step solution will appear to get the shortest path to get the final solution.
 4. You can also choose whether to solve it using Hamming Priority Function or Manhattan Priority Function.
-**BONUS**: BFS implementation so you can compare between applying both algorithms A* and BFS (according to the time and steps).
 
 **NOTE: The project must run under 32 bits(x86).**
+
+## Bonus
+1. Simulating user friendly GUI which allows you to rewind the search one step (movement) at a time over a 3x3 Puzzles only.
+2. Applying BFS algorithm in order to show the difference between it and A* to solve the unordered board in terms of the number of movements done by each and time.
